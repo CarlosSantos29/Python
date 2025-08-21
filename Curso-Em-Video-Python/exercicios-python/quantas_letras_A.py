@@ -6,6 +6,7 @@ e mostre:
     - Em que posição aparece pela ultima vez.
     
 '''
+"""
 nome_usuario = input('Digite o seu nome: ').upper().strip().replace(' ', '')
 quantidade_a = nome_usuario.count('A')#essa variavel recebe a quantidade de letras A
 primeira_posição = nome_usuario.find('A')#essa variavel recebe a posição da primeira letra A
@@ -15,3 +16,10 @@ print(f'Seu nome: {nome_usuario}')
 print(f'Total de A no nome solicitado: {quantidade_a}')
 print(f'Primeira posição que aparece a letra A: {primeira_posição}')
 print(f'Ultima posição que aparece a lletra A: {ultima_posição}')
+
+"""
+
+algo_aleatorio = str(input('Digite algo: ')).strip().upper().replace(' ', '')
+print(f'Total de A: {algo_aleatorio.count('A')}')
+print(f'A primeira posição: {algo_aleatorio.find('A')}')
+print(f'A ultima posição: {algo_aleatorio.rfind('A')}')

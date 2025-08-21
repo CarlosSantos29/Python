@@ -5,10 +5,20 @@ da pessoa e mostre:
     - Quantaaas letras ao todo(sem considerar
     espaços.)
     - quantas letras tem o primero nome.'''
-
+'''
 nome_usuario = str(input('Digite seu nome completo: '))
 print(f'Nome como todas as letras em maiuscula: {nome_usuario.upper()}')
 print(f'Nome com todas as letras em minusculas: {nome_usuario.lower()}')
 print(f'Quantidade de letras ao todo (sem considerar espaços): {len(nome_usuario.replace(" ", ""))}')
 modificação = nome_usuario.split()
 print(f'O numero total do primeiro nome: {len(modificação[0])}')
+
+
+'''
+nome_usuario = str(input('Digite seu nome completo: ')).strip()
+print(f'Nome como todas as letras em maiuscula: {nome_usuario.upper()}')
+print(f'Nome com todas as letras em minusculas: {nome_usuario.lower()}')
+print(f'O seu nome no total: {len(nome_usuario)-nome_usuario.count(' ')}')
+print(f'O total de letras do primeiro nome: {len(nome_usuario.split()[0])}')
+print(f'O seu primeiro nome: {nome_usuario.find(' ')}')
+

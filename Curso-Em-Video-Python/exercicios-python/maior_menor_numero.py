@@ -33,3 +33,8 @@ else:
 #Resultado entre os três numeros
 print(f'O maior numero: {maior_numero}')
 print(f'O menor numero: {menor_numero}')
+
+'''
+esse daqui será refeito novamente, não sendo usado o if/elif/else
+e sim usando o max/min ou sort() 
+'''

@@ -48,15 +48,17 @@ cores = {'limpa': '\033[m',
 
 
 print(f'{cores['azul-claro']}Calculando...{cores['limpa']}')
-sleep(5)
+sleep(2)
 
 if escolha == 1:
     print(f'O numero solicitado pelo usuario: {numero}')
-    print(f'Convertido em binario: {bin(numero)}')
+    print(f'Convertido em binario: {bin(numero)[2:]}')
 elif escolha == 2:
     print(f'O numero solicitado pelo usuario: {numero}')
-    print(f'Convertido em octal: {oct(numero)}')
-else:
+    print(f'Convertido em octal: {oct(numero)[2:]}')
+elif escolha == 3:
     print(f'O numero solicitado pelo usuario: {numero}')
-    print(f'Convertido em hexadecimal: {hex(numero)}')
+    print(f'Convertido em hexadecimal: {hex(numero)[2:]}')
+else:
+    print('Opção inválida.')
 print('-'*5+'Fim....')

@@ -18,11 +18,11 @@ else:
 print(f'L1: {lado_1}\nL2: {lado_2}\nL3: {lado_3}')
 print(f'Pode formar triangulo? {triangulo}')
 
-if lado_1 == lado_2 == lado_3:
+if triangulo == False:
+    print('Não é possivel formar triangulo')
+elif lado_1 == lado_2 == lado_3:
     print('e esse triangulo pode ser equilatero.')
 elif lado_1 == lado_2 or lado_1 == lado_3 or lado_2 == lado_3:
     print('e esse triangulo pode ser isoceles.')
-elif lado_1 != lado_2 != lado_3:
-    print('e essetriangulo pode ser escaleno.')
-else:
-    print('Não é possivel formar triangulo>')
+elif lado_1 != lado_2 and lado_1 != lado_3 and lado_2 != lado_3:# lado_1 != lado_2 != lado_3 != lado_1
+    print('e esse triangulo pode ser escaleno.')

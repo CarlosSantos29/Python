@@ -53,9 +53,13 @@ print('Fim do jogo.')
 normal de python na qual precisa seguir, lembrando que o de cima não está terminado, a logica funciona normalmente, mas iria precisar de alguns ajustes.'''
 
 from random import choice
+from time import sleep
 print('-'*5+'Jokenpo'+'-'*5)
 #jogador = str(input('Escolha entre:\n\n1.Pedra\n2 Papel\n3.Tesoura\nO que deseja?')).title()
 #jokenpo = ['Pedra', 'Papel', 'Tesoura']
+
+#Pra deixar o codigo mais bonito implementei cores
+
 cores = {'limpa':'\033[m',
          'vermelho':'\033[31m', 
          'azul-claro':'\033[93m',
@@ -67,13 +71,22 @@ cores = {'limpa':'\033[m',
 
 print('=#='*5+f'{cores['azul-claro']}JOKENPO{cores['limpa']}'+'=#='*5)
 
-jogador = int(input('Escolha entre:\n\n1.Pedra\n2 Papel\n3.Tesoura\nO que deseja?'))
+#Armazenamento de dados com listas e utilizando random para escolher um valor aleatorio
+jogador = int(input('Escolha entre:\n\n1.Pedra\n2 Papel\n3.Tesoura\nO que deseja? '))
 regras = {1: 'Pedra', 2: 'Papel', 3: 'Tesoura'}
 jokenpo = [1, 2, 3]
 maquina = choice(jokenpo)
 
+print('JO')
+sleep(2)
+print('KEN')
+sleep(2)
+print('PO!!')
+
+print('=#='*5+f'{cores['azul-claro']}JOKENPO{cores['limpa']}'+'=#='*5)
 print(f'Escolha do jogador: {regras[jogador]}')
 print(f'Escolha da maquina: {regras[maquina]}')
+print('=#='*5+f'{cores['azul-claro']}Resultado{cores['limpa']}'+'=#='*5)
 
 if jogador not in jokenpo:
     print('Opção Invalida, tente novamente.')

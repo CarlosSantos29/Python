@@ -72,25 +72,26 @@ cores = {'limpa':'\033[m',
 print('=#='*5+f'{cores['azul-claro']}JOKENPO{cores['limpa']}'+'=#='*5)
 
 #Armazenamento de dados com listas e utilizando random para escolher um valor aleatorio
-jogador = int(input('Escolha entre:\n\n1.Pedra\n2 Papel\n3.Tesoura\nO que deseja? '))
+jogador = int(input('Escolha entre:\n\n[1] Pedra\n[2] Papel\n[3] Tesoura\n\nO que deseja? '))
 regras = {1: 'Pedra', 2: 'Papel', 3: 'Tesoura'}
 jokenpo = [1, 2, 3]
 maquina = choice(jokenpo)
 
-print('JO')
-sleep(2)
-print('KEN')
-sleep(2)
-print('PO!!')
-
-print('=#='*5+f'{cores['azul-claro']}JOKENPO{cores['limpa']}'+'=#='*5)
-print(f'Escolha do jogador: {regras[jogador]}')
-print(f'Escolha da maquina: {regras[maquina]}')
-print('=#='*5+f'{cores['azul-claro']}Resultado{cores['limpa']}'+'=#='*5)
 
 if jogador not in jokenpo:
     print('Opção Invalida, tente novamente.')
 else:
+    print('JO')
+    sleep(2)
+    print('KEN')
+    sleep(2)
+    print('PO!!')
+    
+    print('=#='*5+f'{cores['azul-claro']}JOKENPO{cores['limpa']}'+'=#='*5)
+    print(f'Escolha do jogador: {regras[jogador]}')
+    print(f'Escolha da maquina: {regras[maquina]}')
+    print('=#='*5+f'{cores['azul-claro']}Resultado{cores['limpa']}'+'=#='*5)
+
     if jogador == maquina:
         print('Empate.')
     elif jogador == 2 and maquina == 1 or jogador == 3 and maquina == 2 or jogador == 1 and maquina == 3:

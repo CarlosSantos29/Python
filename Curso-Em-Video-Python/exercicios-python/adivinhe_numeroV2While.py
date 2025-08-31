@@ -5,7 +5,7 @@ mostrando no final quantos palpites foram necessarios para vencer.
 from random import randint
 usuario = 0
 maquina = randint(0, 10)
-tentativas = 1
+tentativas = 0
 
 while usuario != maquina:
     usuario = int(input('Tente adivinhar um numero de 0 a 10 que a maquina pensou.\nAqui vai sua resposta: '))

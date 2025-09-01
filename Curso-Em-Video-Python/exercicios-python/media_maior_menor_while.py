@@ -4,26 +4,21 @@ maior e o menor valores lidos. O programa deve perguntar ao usuario
 se ele quer ou não continuar a digitar valores.
 '''
 
-soma = 0
-quantidade = 0
-maior = None
-menor = None
+verificação = 'S'
+contador = soma = media = maior = menor = 0
 
-
-while True:
-    resposta = str(input('Deseja adicionar um valor? (Sim/não): ')).upper()
-    if resposta == 'N':
-        print('Saindo do codigo...')
-    elif resposta == 'S':
-        numero = int(input('Digite um valor: '))
-        soma += numero
-        quantidade += 1
-        if maior is None or numero > maior:
-            maior = numero
-        if menor is None or numero < menor:
-            menor = numero
+while verificação in 'Ss':
+    numero = int(input('Digite um valor: '))
+    soma += numero
+    contador += 1
+    if contador == 1:
+        maior = menor = numero
     else:
-        print('Opção invalida...')
-
-
-print(f'O maior numero: {maior} e o Menor numero: {menor}')
+        if numero > maior:
+            maior = numero
+        if numero < menor:
+            menor = numero
+        
+    verificação = str(input('Deseja continuar? (Sim/Não): ')).upper().strip()[0]
+media = soma / contador
+print(f'O usuario solicitou {contador} numeros, sua média é igual a {media}, o maior numero é {maior} e o menor numero é igual a {menor}.')

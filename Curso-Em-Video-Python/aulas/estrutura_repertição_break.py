@@ -28,7 +28,7 @@ cada valor digitado pelo usuario. O programa será interrompido quando o numero 
 for negativo.(feito)
 
 3.Faça um programa que jogue par ou impar com o computador. O jogo só será interrompido
-quando o jogador perer, mostrando o total de vitorias consecutivas que ele conquistou
+quando o jogador perder, mostrando o total de vitorias consecutivas que ele conquistou
 no final do jogo.
 
 4. Crie um programa que leia o sexo de varias pessoas. Caa pessoa caastrada, o programa

@@ -1,4 +1,4 @@
-#Função 1 que apenas exibe uma mensagem,
+# Função 1 que apenas exibe uma mensagem
 def exibir_mensagem():
     print('Olá mundo!')
 
@@ -9,12 +9,11 @@ def exibir_mensagem_3(nome='Default'):
     print(f'Seja Bem-Vindo {nome}')
 
 
-
-
 exibir_mensagem()
 #exibir_mensagem_2('Carlos')
-exibir_mensagem_2(nome = 'Carlos')
+exibir_mensagem_2(nome='Carlos')
 exibir_mensagem_3('Eduardo')
+
 
 def calcular_total(numeros):
     return sum(numeros)
@@ -23,19 +22,23 @@ def retornar_antecessor_e_sucessor(numero):
     antecessor = numero - 1
     sucessor = numero + 1
     return antecessor, sucessor
-def function_3():
-    print('Olá mundo! ')
 
-print(calcular_total([10,10]))
+def function_3():
+    print('Olá mundo!')
+
+
+print(calcular_total([10, 10]))
 print(retornar_antecessor_e_sucessor(5))
-print(function_3())#Retorna um valor vazio
+print(function_3())  # Retorna None, pois a função não tem return
+
 
 def salvar_carro(marca, modelo, ano, placa):
     print(f'Carro cadastrado com sucesso! {marca}/{modelo}/{ano}/{placa}')
 
 #salvar_carro('Fiat','Palio','1999','ABC-1234')
-#salvar_carro(marca='Fiat', modelo='Palio',ano='1999',placa='ABC-1234')
-salvar_carro(**{'marca':'Fiat','modelo':'Palio','ano':'1999','placa':'ABC-1234'})#diionario
+#salvar_carro(marca='Fiat', modelo='Palio', ano='1999', placa='ABC-1234')
+salvar_carro(**{'marca':'Fiat','modelo':'Palio','ano':'1999','placa':'ABC-1234'})  # dicionário
+
 
 def exibir_poema(data_extenso, *args, **kwargs):
     texto = '\n'.join(args)
@@ -43,4 +46,29 @@ def exibir_poema(data_extenso, *args, **kwargs):
     mensagem = f'{data_extenso}\n\n{texto}\n\n{meta_dados}'
     print(mensagem)
 
-exibir_poema('Sexta-feira, 26 de Agosto de 2022','Zen of Python', 'Beautigil is better than ugly.', autor='Tim Peters', ano=1999)
+
+exibir_poema(
+    'Sexta-feira, 09 de Setembro de 2025',
+    'Zen of Python',
+    'Beautiful is better than ugly.',
+    'Explicit is better than implicit.',
+    'Simple is better than complex.',
+    'Complex is better than complicated.',
+    'Flat is better than nested.',
+    'Sparse is better than dense.',
+    'Readability counts.',
+    "Special cases aren't special enough to break the rules.",
+    'Although practicality beats purity.',
+    'Errors should never pass silently.',
+    'Unless explicitly silenced.',
+    'In the face of ambiguity, refuse the temptation to guess.',
+    'There should be one-- and preferably only one --obvious way to do it.',
+    'Although that way may not be obvious at first unless you’re Dutch.',
+    'Now is better than never.',
+    'Although never is often better than *right* now.',
+    "If the implementation is hard to explain, it's a bad idea.",
+    'If the implementation is easy to explain, it may be a good idea.',
+    "Namespaces are one honking great idea -- let's do more of those!",
+    autor='Tim Peters',
+    ano=1999
+)

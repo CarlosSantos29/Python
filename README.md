@@ -1,4 +1,4 @@
-# 🐍 Objetivo com essa ferramenta = Me tornar um dev backend, que trabalhe tanto em analisar dados como também no desenvolvimento de sistemas, otimizando com o Python
+🎯 Objetivo: Evoluir como desenvolvedor backend, praticando Python para análise de dados e desenvolvimento de sistemas.
 
 # 🐍 Exercícios, Funções e Projetos em Python
 
@@ -24,7 +24,12 @@ O objetivo é praticar lógica de programação, estruturas de controle, manipul
 - [ ] Integração com API e Banco de Dados  
 
 ---
-
+---
+---
+---
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Em%20Aprendizado-yellow)
+---
 ## ▶️ Como executar
 1. Clone este repositório:
    ```bash

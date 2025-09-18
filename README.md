@@ -16,7 +16,8 @@ O objetivo é praticar lógica de programação, estruturas de controle, manipul
 - [x] Estruturas de repetição: `while / for`  
 - [x] Módulos e bibliotecas  
 - [x] Manipulação de strings  
-- [ ] Funções personalizadas (em desenvolvimento)  
+- [x] Funções personalizadas (em desenvolvimento)
+- [ ] Coleções (listas,tuplas,matrizes,dicionario)(em desenvolvimento)  
 - [ ] Programação Orientada a Objetos (POO)  
 - [ ] Integração com API e Banco de Dados  
 

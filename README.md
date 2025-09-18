@@ -12,7 +12,7 @@ O objetivo é praticar lógica de programação, estruturas de controle, manipul
 - VS Code  
 ---
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue?logo=visualstudiocode&logoColor=white)
+![VS Code](https://img.shields.io/badge/Editor-VS%20Code-0078d7?logo=visualstudiocode&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20Aprendizado-yellow)
 ---
 ---
@@ -29,10 +29,10 @@ O objetivo é praticar lógica de programação, estruturas de controle, manipul
 
 ---
 ## 📂 Estrutura
-- [Exercícios](https://github.com/CarlosSantos29/Python/tree/main/Curso-Em-Video-Python/exercicios-python)
-- [DIO Python]([https://github.com/CarlosSantos29/Python/tree/main/Curso-Em-Video-Python/exercicios-python](https://github.com/CarlosSantos29/Python/tree/main/Python-Dio))    
-- [Projetos]([projetos/](https://github.com/CarlosSantos29/Python/tree/main/Python-Dio/projetos_python3.py))
-- [Teste de código]([projetos/](https://github.com/CarlosSantos29/Python/tree/main/testes-de-codigo))  
+- [Exercícios](https://github.com/CarlosSantos29/Python/tree/main/Curso-Em-Video-Python/exercicios-python)  
+- [DIO Python](https://github.com/CarlosSantos29/Python/tree/main/Python-Dio)    
+- [Projetos](https://github.com/CarlosSantos29/Python/tree/main/Python-Dio/projetos_python3.py)  
+- [Teste de código](https://github.com/CarlosSantos29/Python/tree/main/testes-de-codigo)  
 ---
 
 ---

@@ -1,3 +1,5 @@
+# 🐍 Objetivo com essa ferramenta = Me tornar um dev backend, que trabalhe tanto em analisar dados como também no desenvolvimento de sistemas, otimizando com o Python
+
 # 🐍 Exercícios, Funções e Projetos em Python
 
 Este repositório contém exercícios, funções e pequenos projetos desenvolvidos em Python durante meu processo de aprendizado.  

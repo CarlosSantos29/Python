@@ -9,7 +9,8 @@ O objetivo é praticar lógica de programação, estruturas de controle, manipul
 
 ## 🚀 Tecnologias
 - Python 3.x  
-- VS Code  
+- VS Code
+    
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-0078d7?logo=visualstudiocode&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20Aprendizado-yellow)

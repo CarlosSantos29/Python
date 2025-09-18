@@ -10,7 +10,11 @@ O objetivo é praticar lógica de programação, estruturas de controle, manipul
 ## 🚀 Tecnologias
 - Python 3.x  
 - VS Code  
-
+---
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue?logo=visualstudiocode&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Em%20Aprendizado-yellow)
+---
 ---
 
 ## 📌 Conteúdos Praticados
@@ -24,11 +28,13 @@ O objetivo é praticar lógica de programação, estruturas de controle, manipul
 - [ ] Integração com API e Banco de Dados  
 
 ---
+## 📂 Estrutura
+- [Exercícios](https://github.com/CarlosSantos29/Python/tree/main/Curso-Em-Video-Python/exercicios-python)
+- [DIO Python]([https://github.com/CarlosSantos29/Python/tree/main/Curso-Em-Video-Python/exercicios-python](https://github.com/CarlosSantos29/Python/tree/main/Python-Dio))    
+- [Projetos]([projetos/](https://github.com/CarlosSantos29/Python/tree/main/Python-Dio/projetos_python3.py))
+- [Teste de código]([projetos/](https://github.com/CarlosSantos29/Python/tree/main/testes-de-codigo))  
 ---
----
----
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Status](https://img.shields.io/badge/Status-Em%20Aprendizado-yellow)
+
 ---
 ## ▶️ Como executar
 1. Clone este repositório:

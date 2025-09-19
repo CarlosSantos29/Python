@@ -44,7 +44,7 @@ personagens = {
         'Ninjutsu': 'Yes',
         'Genjutsu': 'No',
         'Taijutsu': 'Yes',
-        'Clã': ''
+        'Clã': 'Yamanaka'
     },
     'Choji': {
         'Habilidades': 'Convenção de calórias em chackra',
@@ -91,9 +91,9 @@ def historico_ninjas():
     ====== Escolha um ninja e veja suas habilidades ====
                               
            Time 7    Time 10        Time 9     
-        [1 NARUTO]  [4 Shikamaru]   [7 Rock Lee]   [10 Sair]
-        [2 SASUKE]  [5 Ino]         [8 Neji]
-        [3 SAKURA]  [6 Choji]       [9 Tenten]
+        [1 NARUTO]  [4 SHIKAMARU]   [7 ROCK LEE]   [10 Sair]
+        [2 SASUKE]  [5 INO]         [8 NEJI]
+        [3 SAKURA]  [6 CHOJI]       [9 TENTEN]
                               
     escolha aqui seu ninja ---> '''))
             if escolha_ninja == 1:

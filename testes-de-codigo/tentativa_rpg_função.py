@@ -38,7 +38,14 @@ Se os dados estão corretos, deseja começar o modo história? (Sim/Não)
 def modo_historia():
     input(f'''
 O ano era 1990, em Milano, Itália...
-(... história ...)
+Em uma caverna localizada na fronteira do norte, um jovem guerreiro decidiu se afastar de todos em busca de poder.
+Com isso, queimou casas e eliminou inocentes sob o argumento de que desejava aumentar sua dor com as almas que eram soltas.
+Com toda essa brutalidade, conseguiu fugir e nunca mais foi visto...
+
+Passaram-se 10 anos. Um guerreiro novato, recém-formado em sua academia, descobriu sobre o fato
+e decidiu se aventurar pelas florestas. Seu objetivo era se vingar — não por si mesmo,
+mas pelas pessoas de seu vilarejo, onde viveu observando seus vizinhos serem mortos pelo temido guerreiro...
+
 O que deseja fazer, nobre guerreiro? 
     [1] Explorar
     [2] Ver os itens

@@ -83,8 +83,7 @@ def gerenciador_tarefas():
         [1] Adicionar tarefa
         [2] Analisar tarefas existentes
         [3] Remover tarefa
-        [4] Tarefas concluidas
-        [5] Sair
+        [4] Sair
 
 Digite aqui a opção que deseja ---> '''))
         if confirmar_escolha == 1:
@@ -94,9 +93,7 @@ Digite aqui a opção que deseja ---> '''))
         elif confirmar_escolha == 3:
             remover_tarefas()
         elif confirmar_escolha == 4:
-        '''será adicionado ainda'''
-        elif confirmar_escolha == 5:
-                break            
+            break
 
 def adicionar_tarefas():
     tarefa_chave = input('diga um titulo para sua tarefa --> ')

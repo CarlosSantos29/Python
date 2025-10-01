@@ -72,5 +72,5 @@ print(contatos)
 del contatos['chappie@gmail.com']
 print(contatos)
 
-del contatos
-print(contatos, {})
+del contatos#aqui deleta o dicionario todo
+print(contatos)
